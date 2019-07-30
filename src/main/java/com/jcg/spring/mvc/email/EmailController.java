@@ -23,7 +23,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class EmailController {
 
 	static String emailToRecipient, emailSubject, emailMessage;
-	static final String emailFromRecipient = "<!-- Source Email Address -->";
+	static final String emailFromRecipient = "lasekkarol@yahoo.com";
 
 	static ModelAndView modelViewObj;
 
