@@ -30,7 +30,7 @@
 	    	<h2>Spring MVC Email Example</h2>
 	    </center>
 	    <div id="successMessage">
-	        <strong>${messageObj}</strong>
+	        <strong>"Thank You! Your Email Has Been Sent!"</strong>
 	    </div>
 	    <div id="emailFormDiv">
 	    	<a id="emailFormPage" href="emailForm">Go To Email Form Page</a>
