@@ -5,10 +5,10 @@
     
     <!-- Spring Email Sender Bean Configuration -->
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-        <property name="host" value="smtp.mail.yahoo.com" />
+        <property name="host" value="smtp.gmail.com" />
         <property name="port" value="587" />
-        <property name="username" value="lasekkarol@yahoo.com" />
-        <property name="password" value="fajneHaslo" />
+        <property name="username" value="praktykiDreamTeam@gmail.com" />
+        <property name="password" value="SonEric2019" />
         <property name="javaMailProperties">
             <props>
                 <prop key="mail.smtp.auth">true</prop>
