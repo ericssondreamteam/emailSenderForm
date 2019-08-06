@@ -1,4 +1,4 @@
-package com.jcg.spring.mvc.email;
+package com.jcg.spring.mvc.email.all;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.mail.MailSender;

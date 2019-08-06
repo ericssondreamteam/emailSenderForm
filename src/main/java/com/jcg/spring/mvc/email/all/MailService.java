@@ -1,4 +1,4 @@
-package com.jcg.spring.mvc.email;
+package com.jcg.spring.mvc.email.all;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailSender;

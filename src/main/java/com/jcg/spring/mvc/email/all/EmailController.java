@@ -1,4 +1,4 @@
-package com.jcg.spring.mvc.email;
+package com.jcg.spring.mvc.email.all;
 
 import java.io.IOException;
 import java.io.InputStream;
