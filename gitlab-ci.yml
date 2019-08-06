@@ -1,0 +1,34 @@
+#ci cd config file
+stages:
+  - build
+  - test
+  - deploy
+
+image: maven:slim
+
+cache:
+  paths:
+    - .m2/
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2"
+
+#maven build:
+#  stage: build
+#  script: mvn clean compile
+#
+#
+#maven test:
+#  stage: test
+#  when: on_success
+#  script: mvn test
+
+deploy to heroku:
+  stage: deploy
+  when: on_success
+  image: ruby:2.3
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=comarch --api-key=$HEROKU_KEY
