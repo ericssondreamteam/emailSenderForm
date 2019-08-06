@@ -46,7 +46,7 @@ public class EmailController {
 
 				MimeMessageHelper mimeMsgHelperObj = new MimeMessageHelper(mimeMessage, true, "UTF-8");				
 				mimeMsgHelperObj.setTo(emailToRecipient);
-				mimeMsgHelperObj.setFrom(emailFromRecipient);
+				mimeMsgHelperObj.setFrom(emailFromRecipient);				
 				mimeMsgHelperObj.setText(emailMessage);
 				mimeMsgHelperObj.setSubject(emailSubject);
 
