@@ -19,7 +19,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile;
 public class EmailController {
 
 	static String emailToRecipient, emailSubject, emailMessage;
-	static final String emailFromRecipient = "karower98@gmail.com";
+	static final String emailFromRecipient = "praktykiDreamTeam@gmail.com";
 
 	@Autowired
 	private JavaMailSender mailSenderObj;
